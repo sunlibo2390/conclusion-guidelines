@@ -1,17 +1,22 @@
-# Welcome to MkDocs
+# 项目简介
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+本项目意图搭建一个普适的、细粒度的论辩文本结构表示框架，并后续基于该统一表示解决论辩挖掘领域的各项基础任务。
 
-## Commands
+## 什么是论辩挖掘
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+自动识别论辩性文本中的论点、论据及相应结构，从而能够理解结论获得的原因与过程。代表性的论辩挖掘任务包括论点提取、自动摘要生成等。
 
-## Project layout
+## 如何搭建论辩图谱
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+本项目拟从句子内部结构、句子间结构进行层级化表示。现阶段，我们关注句子内部的结构表示，主要使用**语义角色标注**的方法。
+
+## 什么是语义角色标注
+
+语义角色标注（Semantic Role Labeling）是一种句子结构的标注策略。该策略关注句子内部各成分所承担的语义功能，并依据功能进行分层、分类。举例而言，“今天我写完了作业。”这一句子中，“写”是动作，“我”是动作的行使人，或称“动因”（agent），“作业”是动作的宾语，或称“受动者”（patient），而“今天”是修饰成分，对动作发生的时间进行限定。除此之外，语义角色还可以包括主题、地点、方式等等。
+
+## 联系方式
+
+如有任何疑问，请联系复旦大学 DISC 论辩图谱小组项目成员：
+
+- 🚹梁敬聪：<18307110286@fudan.edu.cn>
+- 🚺高源：<18307110523@fudan.edu.cn>
