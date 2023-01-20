@@ -1,14 +1,9 @@
 site_name: 论辩图谱项目 标注指南
-repo_url: https://github.com/sunlibo2390/guidelines
+repo_url: https://github.com/sunlibo2390/conclusion-guidelines
 repo_name: conclusion-guidelines
 edit_uri: blob/main/docs/
 nav:
   - index.md
-  - logic.md
-  - process.md
-  - website.md
-  - adjudicate.md
-  - modifier.md
 theme:
   name: material
   language: zh
