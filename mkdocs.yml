@@ -8,7 +8,6 @@ nav:
   - process.md
   - website.md
   - adjudicate.md
-  - modifier.md
 theme:
   name: material
   language: zh
