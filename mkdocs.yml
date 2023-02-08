@@ -4,7 +4,6 @@ repo_name: conclusion-guidelines
 edit_uri: blob/main/docs/
 nav:
   - index.md
-  - tasks.md
   - process.md
   - website.md
   - adjudicate.md
